@@ -61,6 +61,7 @@ public class GoogleSearchService
                 }
 
 
+
                 // تاخیر بین درخواست‌ها برای جلوگیری از محدودیت Rate Limit
                 await Task.Delay(2000);
             }
